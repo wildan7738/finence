@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildan | Dev - Sec - Finance</title>
+    <link rel="stylesheet" href="ht.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="terminal-loader">
+        <p>> Initializing Wildan_Portfolio...</p>
+    </div>
+
+    <nav>
+        <div class="logo">WILDAN<span>.root</span></div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#finance">Finance</a></li>
+            <li><a href="mailto:emailmu@gmail.com" class="contact-btn">Hubungi Saya</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="hero">
+            <div class="badge">SMK Amaliah Ciawi Student</div>
+            <h1>Programmer & <span class="highlight">Analyst</span></h1>
+            <p>Spesialisasi dalam <strong>Linux</strong>, <strong>Cybersecurity</strong>, dan <strong>Financial Markets</strong>.</p>
+            <div class="console">
+                <p>$ nmap -sV target_company_security</p>
+                <p>$ sqlmap -u target_db --dbs</p>
+                <p>$ ls -la /home/wildan/projects</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="skills">
+        <h2 class="title">Technical Stack</h2>
+        <div class="skill-grid">
+            <div class="skill-card">
+                <h3>Development</h3>
+                <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <h3>Cybersecurity</h3>
+                <p>Nmap, SQLMap, Wireshark</p>
+            </div>
+            <div class="skill-card">
+                <h3>OS & Systems</h3>
+                <p>Linux (Debian/Kali), Bash</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="finance">
+        <h2 class="title">Financial Analysis</h2>
+        <div class="finance-box">
+            <div class="finance-item">
+                <h4>Forex Trader</h4>
+                <p>Menganalisis XAUUSD & Major Pairs menggunakan teknikal analisis.</p>
+            </div>
+            <div class="finance-item">
+                <h4>Stock Investor</h4>
+                <p>Investasi saham jangka panjang dengan analisis fundamental.</p>
+            </div>
+        </div>
+        <div class="chart-container">
+            <div id="tradingview_widget"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Wildan. Built with Linux & Love.</p>
+    </footer>
+
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script src="ht.js"></script>
+</body>
+</html>
